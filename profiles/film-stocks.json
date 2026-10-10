@@ -1,0 +1,3464 @@
+{
+  "attribution" : "Film simulations from GlassMeter by Glass Works (glass-works.ai)",
+  "films" : [
+    {
+      "character" : "Pastel palette, the gentlest contrast",
+      "discontinued" : false,
+      "displayName" : "Portra 160",
+      "grain" : {
+        "intensity" : 0.14999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-portra-160",
+      "iso" : {
+        "box" : 160,
+        "max" : 400,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : [
+          1.02,
+          0.029999999999999999,
+          0,
+          0.01,
+          1,
+          0.01,
+          0,
+          0.02,
+          0.96999999999999997
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.88,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.040000000000000001
+        },
+        "contrast" : 0.12,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              15
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              128,
+              122
+            ],
+            [
+              192,
+              185
+            ],
+            [
+              255,
+              243
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              14
+            ],
+            [
+              64,
+              71
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              191
+            ],
+            [
+              255,
+              245
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              15
+            ],
+            [
+              64,
+              75
+            ],
+            [
+              128,
+              136
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              246
+            ]
+          ]
+        },
+        "saturation" : -0.14000000000000001
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 0,
+      "maxPushStops" : 1,
+      "name" : "Kodak Portra 160",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Huge latitude, flawless skin tones",
+      "discontinued" : false,
+      "displayName" : "Portra 400",
+      "grain" : {
+        "intensity" : 0
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-portra-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 1600,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          1.02,
+          0.029999999999999999,
+          0,
+          0.01,
+          1,
+          0.01,
+          0,
+          0.02,
+          0.96999999999999997
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.040000000000000001
+        },
+        "contrast" : 0.10000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              15
+            ],
+            [
+              64,
+              67
+            ],
+            [
+              128,
+              121
+            ],
+            [
+              192,
+              184
+            ],
+            [
+              255,
+              242
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              14
+            ],
+            [
+              64,
+              72
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              16
+            ],
+            [
+              64,
+              78
+            ],
+            [
+              128,
+              140
+            ],
+            [
+              192,
+              199
+            ],
+            [
+              255,
+              248
+            ]
+          ]
+        },
+        "saturation" : -0.10000000000000001
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 2,
+      "name" : "Kodak Portra 400",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Low light with Portra manners",
+      "discontinued" : false,
+      "displayName" : "Portra 800",
+      "grain" : {
+        "intensity" : 0.40000000000000002
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-portra-800",
+      "iso" : {
+        "box" : 800,
+        "max" : 3200,
+        "min" : 400
+      },
+      "look" : {
+        "channelMixer" : [
+          1.02,
+          0.029999999999999999,
+          0,
+          0.01,
+          1,
+          0.01,
+          0,
+          0.02,
+          0.96999999999999997
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.94999999999999996,
+          "shoulderCompression" : 0.089999999999999997,
+          "toeLift" : 0.029999999999999999
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              12
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              128,
+              119
+            ],
+            [
+              192,
+              183
+            ],
+            [
+              255,
+              241
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              70
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              12
+            ],
+            [
+              64,
+              76
+            ],
+            [
+              128,
+              141
+            ],
+            [
+              192,
+              200
+            ],
+            [
+              255,
+              249
+            ]
+          ]
+        },
+        "saturation" : -0.059999999999999998
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 2,
+      "name" : "Kodak Portra 800",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Finest grain of any color negative",
+      "discontinued" : false,
+      "displayName" : "Ektar 100",
+      "grain" : {
+        "intensity" : 0.10000000000000001
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-ektar-100",
+      "iso" : {
+        "box" : 100,
+        "max" : 200,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.05,
+          "shoulderCompression" : 0.070000000000000007,
+          "toeLift" : 0.02
+        },
+        "contrast" : 0.28000000000000003,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              6
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              122
+            ],
+            [
+              192,
+              186
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              4
+            ],
+            [
+              64,
+              70
+            ],
+            [
+              128,
+              136
+            ],
+            [
+              192,
+              200
+            ],
+            [
+              255,
+              252
+            ]
+          ]
+        },
+        "saturation" : 0.29999999999999999
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Kodak Ektar 100",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Warm, nostalgic, endlessly forgiving",
+      "discontinued" : false,
+      "displayName" : "Gold 200",
+      "grain" : {
+        "intensity" : 0
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-gold-200",
+      "iso" : {
+        "box" : 200,
+        "max" : 400,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : [
+          1.03,
+          0.040000000000000001,
+          0,
+          0,
+          1.01,
+          0,
+          0,
+          0.01,
+          0.94999999999999996
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.025000000000000001
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              11
+            ],
+            [
+              64,
+              59
+            ],
+            [
+              128,
+              113
+            ],
+            [
+              192,
+              177
+            ],
+            [
+              255,
+              235
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              9
+            ],
+            [
+              64,
+              69
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              77
+            ],
+            [
+              128,
+              142
+            ],
+            [
+              192,
+              202
+            ],
+            [
+              255,
+              250
+            ]
+          ]
+        },
+        "saturation" : 0.10000000000000001
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Kodak Gold 200",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Punchy everyday color",
+      "discontinued" : false,
+      "displayName" : "UltraMax 400",
+      "grain" : {
+        "intensity" : 0.34999999999999998
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-ultramax-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 800,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          1.02,
+          0.01,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0.97999999999999998
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.025000000000000001
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              7
+            ],
+            [
+              64,
+              61
+            ],
+            [
+              128,
+              119
+            ],
+            [
+              192,
+              185
+            ],
+            [
+              255,
+              241
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              5
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              247
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              6
+            ],
+            [
+              64,
+              72
+            ],
+            [
+              128,
+              138
+            ],
+            [
+              192,
+              201
+            ],
+            [
+              255,
+              250
+            ]
+          ]
+        },
+        "saturation" : 0.17999999999999999
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Kodak UltraMax 400",
+      "notes" : "Warm, saturated consumer 400",
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Vintage warmth on a budget",
+      "discontinued" : false,
+      "displayName" : "ColorPlus 200",
+      "grain" : {
+        "intensity" : 0.29999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-colorplus-200",
+      "iso" : {
+        "box" : 200,
+        "max" : 400,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : [
+          1.02,
+          0.01,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0.96999999999999997
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.97999999999999998,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.025000000000000001
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              13
+            ],
+            [
+              64,
+              60
+            ],
+            [
+              128,
+              112
+            ],
+            [
+              192,
+              177
+            ],
+            [
+              255,
+              231
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              9
+            ],
+            [
+              64,
+              69
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              192
+            ],
+            [
+              255,
+              243
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              11
+            ],
+            [
+              64,
+              76
+            ],
+            [
+              128,
+              141
+            ],
+            [
+              192,
+              203
+            ],
+            [
+              255,
+              247
+            ]
+          ]
+        },
+        "saturation" : 0.10000000000000001
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Kodak ColorPlus 200",
+      "notes" : "Warm golden vintage cast, Kodacolor heritage",
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Clean modern slide, neutral cast",
+      "discontinued" : false,
+      "displayName" : "Ektachrome E100",
+      "grain" : {
+        "intensity" : 0.059999999999999998
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-ektachrome-e100",
+      "iso" : {
+        "box" : 100,
+        "max" : 400,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.05,
+          "shoulderCompression" : 0.035000000000000003,
+          "toeLift" : 0.0080000000000000002
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              3
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              251
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              252
+            ]
+          ]
+        },
+        "saturation" : 0.12
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 0,
+      "maxPushStops" : 2,
+      "name" : "Kodak Ektachrome E100",
+      "notes" : "Clean neutral slide film, moderately enhanced saturation",
+      "process" : "E-6",
+      "reciprocity" : {
+        "exponent" : 1.2,
+        "thresholdSeconds" : 10
+      }
+    },
+    {
+      "character" : "Tungsten neon, signature halation",
+      "discontinued" : false,
+      "displayName" : "800T",
+      "grain" : {
+        "intensity" : 0.29999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : true,
+        "factor" : 1.3
+      },
+      "id" : "cinestill-800t",
+      "iso" : {
+        "box" : 800,
+        "max" : 3200,
+        "min" : 400
+      },
+      "look" : {
+        "channelMixer" : [
+          0.95999999999999996,
+          0.029999999999999999,
+          0.01,
+          0,
+          1,
+          0.02,
+          0,
+          0.02,
+          1.02
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.035000000000000003
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              20
+            ],
+            [
+              64,
+              80
+            ],
+            [
+              128,
+              142
+            ],
+            [
+              192,
+              201
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              16
+            ],
+            [
+              64,
+              71
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              18
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              128,
+              120
+            ],
+            [
+              192,
+              184
+            ],
+            [
+              255,
+              238
+            ]
+          ]
+        },
+        "saturation" : -0.050000000000000003
+      },
+      "manufacturer" : "CineStill",
+      "maxPullStops" : 1,
+      "maxPushStops" : 2,
+      "name" : "CineStill 800T",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Daylight cinema, ultra-fine grain",
+      "discontinued" : false,
+      "displayName" : "50D",
+      "grain" : {
+        "intensity" : 0.080000000000000002
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "cinestill-50d",
+      "iso" : {
+        "box" : 50,
+        "max" : 100,
+        "min" : 25
+      },
+      "look" : {
+        "channelMixer" : [
+          1.05,
+          -0.050000000000000003,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.92000000000000004,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.029999999999999999
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              12
+            ],
+            [
+              64,
+              75
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              248
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              72
+            ],
+            [
+              128,
+              133
+            ],
+            [
+              192,
+              198
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              8
+            ],
+            [
+              64,
+              70
+            ],
+            [
+              128,
+              135
+            ],
+            [
+              192,
+              200
+            ],
+            [
+              255,
+              250
+            ]
+          ]
+        },
+        "saturation" : 0.14999999999999999
+      },
+      "manufacturer" : "CineStill",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "CineStill 50D",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Versatile cine look, soft glow",
+      "discontinued" : false,
+      "displayName" : "400D",
+      "grain" : {
+        "intensity" : 0.25
+      },
+      "halation" : {
+        "alwaysOn" : true,
+        "factor" : 1.3
+      },
+      "id" : "cinestill-400d",
+      "iso" : {
+        "box" : 400,
+        "max" : 3200,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          1.01,
+          0.01,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0.98999999999999999
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.94999999999999996,
+          "shoulderCompression" : 0.089999999999999997,
+          "toeLift" : 0.029999999999999999
+        },
+        "contrast" : 0.14999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              13
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              128,
+              120
+            ],
+            [
+              192,
+              184
+            ],
+            [
+              255,
+              240
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              191
+            ],
+            [
+              255,
+              244
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              12
+            ],
+            [
+              64,
+              74
+            ],
+            [
+              128,
+              135
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              246
+            ]
+          ]
+        },
+        "saturation" : 0.080000000000000002
+      },
+      "manufacturer" : "CineStill",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "CineStill 400D",
+      "notes" : "Daylight Vision3 base; soft warm tones, mild halation",
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Maximum saturation, razor contrast",
+      "discontinued" : false,
+      "displayName" : "Velvia 50",
+      "grain" : {
+        "intensity" : 0.050000000000000003
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-velvia-50",
+      "iso" : {
+        "box" : 50,
+        "max" : 100,
+        "min" : 40
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.1499999999999999,
+          "shoulderCompression" : 0.02,
+          "toeLift" : 0
+        },
+        "contrast" : 0.34999999999999998,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              0
+            ],
+            [
+              64,
+              60
+            ],
+            [
+              128,
+              126
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              0
+            ],
+            [
+              64,
+              58
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              192,
+              202
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        "saturation" : 0.45000000000000001
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 0,
+      "maxPushStops" : 1,
+      "name" : "Fuji Velvia 50",
+      "notes" : "Highly saturated, landscape film",
+      "process" : "E-6",
+      "reciprocity" : {
+        "exponent" : 1.2,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Velvia punch, steady out to 60s",
+      "discontinued" : false,
+      "displayName" : "Velvia 100",
+      "grain" : {
+        "intensity" : 0.050000000000000003
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-velvia-100",
+      "iso" : {
+        "box" : 100,
+        "max" : 200,
+        "min" : 80
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.1200000000000001,
+          "shoulderCompression" : 0.025000000000000001,
+          "toeLift" : 0.002
+        },
+        "contrast" : 0.32000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              0
+            ],
+            [
+              64,
+              60
+            ],
+            [
+              128,
+              126
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              0
+            ],
+            [
+              64,
+              58
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              192,
+              202
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        "saturation" : 0.38
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 0,
+      "maxPushStops" : 1,
+      "name" : "Fuji Velvia 100",
+      "notes" : "Saturated slide with excellent reciprocity",
+      "process" : "E-6",
+      "reciprocity" : {
+        "exponent" : 1.1499999999999999,
+        "thresholdSeconds" : 60
+      }
+    },
+    {
+      "character" : "The balanced professional slide",
+      "discontinued" : false,
+      "displayName" : "Provia 100F",
+      "grain" : {
+        "intensity" : 0.080000000000000002
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-provia-100f",
+      "iso" : {
+        "box" : 100,
+        "max" : 400,
+        "min" : 70
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.0800000000000001,
+          "shoulderCompression" : 0.029999999999999999,
+          "toeLift" : 0.0050000000000000001
+        },
+        "contrast" : 0.20000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              4
+            ],
+            [
+              64,
+              66
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              253
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              64
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              128,
+              127
+            ],
+            [
+              192,
+              192
+            ],
+            [
+              255,
+              251
+            ]
+          ]
+        },
+        "saturation" : 0.12
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 0,
+      "maxPushStops" : 2,
+      "name" : "Fuji Provia 100F",
+      "notes" : "Neutral, accurate colors",
+      "process" : "E-6",
+      "reciprocity" : {
+        "exponent" : 1.2,
+        "thresholdSeconds" : 128
+      }
+    },
+    {
+      "character" : "Airy pastels, minty shadows",
+      "discontinued" : false,
+      "displayName" : "Pro 400H",
+      "grain" : {
+        "intensity" : 0
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-pro-400h",
+      "iso" : {
+        "box" : 400,
+        "max" : 800,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : [
+          0.98999999999999999,
+          0.02,
+          0,
+          0,
+          1.02,
+          0.02,
+          0,
+          0.029999999999999999,
+          0.96999999999999997
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.88,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.040000000000000001
+        },
+        "contrast" : 0.12,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              17
+            ],
+            [
+              64,
+              73
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              189
+            ],
+            [
+              255,
+              244
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              19
+            ],
+            [
+              64,
+              79
+            ],
+            [
+              128,
+              137
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              248
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              17
+            ],
+            [
+              64,
+              73
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              191
+            ],
+            [
+              255,
+              243
+            ]
+          ]
+        },
+        "saturation" : -0.14000000000000001
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 2,
+      "maxPushStops" : 1,
+      "name" : "Fujifilm Pro 400H",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.25,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Neutral Japanese workhorse",
+      "discontinued" : false,
+      "displayName" : "Industrial 100",
+      "grain" : {
+        "intensity" : 0
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-industrial-100",
+      "iso" : {
+        "box" : 100,
+        "max" : 400,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.97999999999999998,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.025000000000000001
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              69
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              255,
+              244
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              9
+            ],
+            [
+              64,
+              69
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              192
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              9
+            ],
+            [
+              64,
+              65
+            ],
+            [
+              128,
+              124
+            ],
+            [
+              192,
+              188
+            ],
+            [
+              255,
+              243
+            ]
+          ]
+        },
+        "saturation" : -0.10000000000000001
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 1,
+      "maxPushStops" : 2,
+      "name" : "Fujicolor Industrial 100",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.2,
+        "thresholdSeconds" : 2
+      }
+    },
+    {
+      "character" : "Cool greens, consumer punch",
+      "discontinued" : false,
+      "displayName" : "Superia X-TRA 400",
+      "grain" : {
+        "intensity" : 0.29999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "fuji-superia-xtra-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 800,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.98999999999999999,
+          0,
+          0,
+          0,
+          1.02,
+          0.01,
+          0,
+          0.01,
+          1
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.025000000000000001
+        },
+        "contrast" : 0.20000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              7
+            ],
+            [
+              64,
+              67
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              5
+            ],
+            [
+              64,
+              69
+            ],
+            [
+              128,
+              134
+            ],
+            [
+              192,
+              198
+            ],
+            [
+              255,
+              251
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              4
+            ],
+            [
+              64,
+              61
+            ],
+            [
+              128,
+              124
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              255,
+              247
+            ]
+          ]
+        },
+        "saturation" : 0.14999999999999999
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Fujifilm Superia X-TRA 400",
+      "notes" : "Cool green-leaning palette, 4th cyan layer",
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1.2,
+        "thresholdSeconds" : 2
+      }
+    },
+    {
+      "character" : "Forgiving, push-happy reportage",
+      "discontinued" : false,
+      "displayName" : "HP5 Plus",
+      "grain" : {
+        "intensity" : 0.25
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-hp5-400-v2",
+      "iso" : {
+        "box" : 400,
+        "max" : 3200,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.040000000000000001,
+          "toeLift" : 0.017999999999999999
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              3
+            ],
+            [
+              48,
+              46
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              206
+            ],
+            [
+              255,
+              247
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              3
+            ],
+            [
+              48,
+              46
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              206
+            ],
+            [
+              255,
+              247
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              3
+            ],
+            [
+              48,
+              46
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              206
+            ],
+            [
+              255,
+              247
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "Ilford HP5 Plus",
+      "notes" : null,
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3100000000000001,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Classic grain, handsome midtones",
+      "discontinued" : false,
+      "displayName" : "FP4 Plus",
+      "grain" : {
+        "intensity" : 0.12
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-fp4-125-v2",
+      "iso" : {
+        "box" : 125,
+        "max" : 200,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : [
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002,
+          0.33000000000000002
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.02,
+          "shoulderCompression" : 0.029999999999999999,
+          "toeLift" : 0.014999999999999999
+        },
+        "contrast" : 0.17999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              5
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              5
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              5
+            ],
+            [
+              64,
+              68
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              190
+            ],
+            [
+              255,
+              252
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 1,
+      "maxPushStops" : 0,
+      "name" : "Ilford FP4 Plus",
+      "notes" : "Fine grain, excellent tonality",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.26,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "T-grain precision, quiet tones",
+      "discontinued" : false,
+      "displayName" : "Delta 100",
+      "grain" : {
+        "intensity" : 0.050000000000000003
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-delta-100-v2",
+      "iso" : {
+        "box" : 100,
+        "max" : 200,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : [
+          0.25,
+          0.65000000000000002,
+          0.10000000000000001,
+          0.25,
+          0.65000000000000002,
+          0.10000000000000001,
+          0.25,
+          0.65000000000000002,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.02,
+          "shoulderCompression" : 0.01,
+          "toeLift" : 0.0080000000000000002
+        },
+        "contrast" : 0.25,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              195
+            ],
+            [
+              255,
+              252
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Ilford Delta 100",
+      "notes" : "Very fine grain, sharp",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.26,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Smooth modern B&W all-rounder",
+      "discontinued" : false,
+      "displayName" : "Delta 400",
+      "grain" : {
+        "intensity" : 0.17999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-delta-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 3200,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.27000000000000002,
+          0.62,
+          0.11,
+          0.27000000000000002,
+          0.62,
+          0.11,
+          0.27000000000000002,
+          0.62,
+          0.11
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.01,
+          "toeLift" : 0.01
+        },
+        "contrast" : 0.23999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              250
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "Ilford Delta 400",
+      "notes" : "Modern T-grain 400; poor reciprocity (p=1.41)",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.4099999999999999,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Grain as texture — night work",
+      "discontinued" : false,
+      "displayName" : "Delta 3200",
+      "grain" : {
+        "intensity" : 0.80000000000000004
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-delta-3200-v2",
+      "iso" : {
+        "box" : 3200,
+        "max" : 25000,
+        "min" : 400
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.94999999999999996,
+          "shoulderCompression" : 0.050000000000000003,
+          "toeLift" : 0.0050000000000000001
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              12
+            ],
+            [
+              48,
+              52
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              208,
+              200
+            ],
+            [
+              255,
+              240
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              12
+            ],
+            [
+              48,
+              52
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              208,
+              200
+            ],
+            [
+              255,
+              240
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              12
+            ],
+            [
+              48,
+              52
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              208,
+              200
+            ],
+            [
+              255,
+              240
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 3,
+      "maxPushStops" : 3,
+      "name" : "Ilford Delta 3200",
+      "notes" : "True ISO 1000, rated EI 3200; sweet spot 1600–6400",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3300000000000001,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Steep and fine — bring a tripod",
+      "discontinued" : false,
+      "displayName" : "Pan F Plus",
+      "grain" : {
+        "intensity" : 0.029999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-panf-50",
+      "iso" : {
+        "box" : 50,
+        "max" : 64,
+        "min" : 25
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.1200000000000001,
+          "shoulderCompression" : 0.040000000000000001,
+          "toeLift" : 0.0050000000000000001
+        },
+        "contrast" : 0.32000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              36
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              218
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              36
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              218
+            ],
+            [
+              255,
+              255
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              36
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              218
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 1,
+      "maxPushStops" : 0,
+      "name" : "Ilford Pan F Plus",
+      "notes" : "Ultra-fine grain, high contrast — landscape classic",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3300000000000001,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "B&W with color-neg latitude",
+      "discontinued" : false,
+      "displayName" : "XP2 Super",
+      "grain" : {
+        "intensity" : 0.14999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "ilford-xp2-super-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 800,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.94999999999999996,
+          "shoulderCompression" : 0.089999999999999997,
+          "toeLift" : 0.035000000000000003
+        },
+        "contrast" : 0.20000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              5
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              208,
+              203
+            ],
+            [
+              255,
+              245
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              5
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              208,
+              203
+            ],
+            [
+              255,
+              245
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              5
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              208,
+              203
+            ],
+            [
+              255,
+              245
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Ilford",
+      "maxPullStops" : 3,
+      "maxPushStops" : 1,
+      "name" : "Ilford XP2 Super",
+      "notes" : "C-41 chromogenic B&W; shoot EI 50–800 without dev changes",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3100000000000001,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "The classic — gutsy grain since '54",
+      "discontinued" : false,
+      "displayName" : "Tri-X 400",
+      "grain" : {
+        "intensity" : 0.34999999999999998
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "kodak-trix-400-v2",
+      "iso" : {
+        "box" : 400,
+        "max" : 3200,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0.0050000000000000001,
+          "toeLift" : 0.014999999999999999
+        },
+        "contrast" : 0.29999999999999999,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              40
+            ],
+            [
+              128,
+              134
+            ],
+            [
+              208,
+              212
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              40
+            ],
+            [
+              128,
+              134
+            ],
+            [
+              208,
+              212
+            ],
+            [
+              255,
+              250
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              0
+            ],
+            [
+              48,
+              40
+            ],
+            [
+              128,
+              134
+            ],
+            [
+              208,
+              212
+            ],
+            [
+              255,
+              250
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "Kodak Tri-X 400",
+      "notes" : "Classic grain, high contrast",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 0.10000000000000001
+      }
+    },
+    {
+      "character" : "Straight-line tones, invisible grain",
+      "discontinued" : false,
+      "displayName" : "T-MAX 100",
+      "grain" : {
+        "intensity" : 0.050000000000000003
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "kodak-tmax-100-v2",
+      "iso" : {
+        "box" : 100,
+        "max" : 800,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.02,
+          "shoulderCompression" : 0,
+          "toeLift" : 0.0080000000000000002
+        },
+        "contrast" : 0.25,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              253
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              253
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              63
+            ],
+            [
+              128,
+              128
+            ],
+            [
+              192,
+              193
+            ],
+            [
+              255,
+              253
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "Kodak T-MAX 100",
+      "notes" : "Tabular grain, very sharp",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.1200000000000001,
+        "thresholdSeconds" : 0.40000000000000002
+      }
+    },
+    {
+      "character" : "Modern B&W, linear to the top",
+      "discontinued" : false,
+      "displayName" : "T-MAX 400",
+      "grain" : {
+        "intensity" : 0.14999999999999999
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "kodak-tmax-400-v2",
+      "iso" : {
+        "box" : 400,
+        "max" : 3200,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1,
+          "shoulderCompression" : 0,
+          "toeLift" : 0.012
+        },
+        "contrast" : 0.20000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              252
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              1
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              194
+            ],
+            [
+              255,
+              252
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 3,
+      "name" : "Kodak T-MAX 400",
+      "notes" : "Fine grain for ISO 400",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.1699999999999999,
+        "thresholdSeconds" : 0.29999999999999999
+      }
+    },
+    {
+      "character" : "Available-darkness specialist",
+      "discontinued" : false,
+      "displayName" : "T-MAX P3200",
+      "grain" : {
+        "intensity" : 0.65000000000000002
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "kodak-tmax-p3200",
+      "iso" : {
+        "box" : 3200,
+        "max" : 25000,
+        "min" : 400
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.0800000000000001,
+          "shoulderCompression" : 0.029999999999999999,
+          "toeLift" : 0.0050000000000000001
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              9
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              243
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              9
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              243
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              9
+            ],
+            [
+              48,
+              50
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              243
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 3,
+      "maxPushStops" : 3,
+      "name" : "Kodak T-MAX P3200",
+      "notes" : "True ISO ~800–1000, rated for EI 3200",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.25,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Cinema noir, hard shadows",
+      "discontinued" : false,
+      "displayName" : "Double-X",
+      "grain" : {
+        "intensity" : 0.25
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "kodak-double-x-v2",
+      "iso" : {
+        "box" : 250,
+        "max" : 1000,
+        "min" : 125
+      },
+      "look" : {
+        "channelMixer" : [
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001,
+          0.29999999999999999,
+          0.59999999999999998,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.05,
+          "shoulderCompression" : 0.029999999999999999,
+          "toeLift" : 0.01
+        },
+        "contrast" : 0.20000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              7
+            ],
+            [
+              48,
+              48
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              244
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              7
+            ],
+            [
+              48,
+              48
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              244
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              7
+            ],
+            [
+              48,
+              48
+            ],
+            [
+              128,
+              130
+            ],
+            [
+              208,
+              202
+            ],
+            [
+              255,
+              244
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 1,
+      "maxPushStops" : 2,
+      "name" : "Kodak Double-X",
+      "notes" : "Cine stock; EI 250 daylight / 200 tungsten",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Velvet blacks, two-minute stars",
+      "discontinued" : false,
+      "displayName" : "Acros 100 II",
+      "grain" : {
+        "intensity" : 0.040000000000000001
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 0.29999999999999999
+      },
+      "id" : "fuji-acros-100-ii",
+      "iso" : {
+        "box" : 100,
+        "max" : 200,
+        "min" : 50
+      },
+      "look" : {
+        "channelMixer" : [
+          0.22,
+          0.68000000000000005,
+          0.10000000000000001,
+          0.22,
+          0.68000000000000005,
+          0.10000000000000001,
+          0.22,
+          0.68000000000000005,
+          0.10000000000000001
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 1.05,
+          "shoulderCompression" : 0.02,
+          "toeLift" : 0.01
+        },
+        "contrast" : 0.22,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              251
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              251
+            ]
+          ],
+          "red" : [
+            [
+              0,
+              2
+            ],
+            [
+              64,
+              62
+            ],
+            [
+              128,
+              129
+            ],
+            [
+              192,
+              196
+            ],
+            [
+              255,
+              251
+            ]
+          ]
+        },
+        "saturation" : -1
+      },
+      "manufacturer" : "Fujifilm",
+      "maxPullStops" : 1,
+      "maxPushStops" : 1,
+      "name" : "Fujifilm Neopan Acros 100 II",
+      "notes" : "Orthopanchromatic; no reciprocity failure below 2 minutes",
+      "process" : "BW",
+      "reciprocity" : {
+        "exponent" : 1.1499999999999999,
+        "thresholdSeconds" : 120
+      }
+    },
+    {
+      "character" : "No simulation — pure measured exposure",
+      "discontinued" : false,
+      "displayName" : "Digital",
+      "grain" : {
+        "intensity" : 0
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "digital-neutral",
+      "iso" : {
+        "box" : 400,
+        "max" : 6400,
+        "min" : 100
+      },
+      "look" : {
+        "channelMixer" : null,
+        "characteristicCurve" : null,
+        "contrast" : 0,
+        "curves" : null,
+        "saturation" : 0
+      },
+      "manufacturer" : "Digital",
+      "maxPullStops" : 2,
+      "maxPushStops" : 3,
+      "name" : "Digital (Neutral)",
+      "notes" : "No film simulation",
+      "process" : "C-41",
+      "reciprocity" : {
+        "exponent" : 1,
+        "thresholdSeconds" : 999.99900000000002
+      }
+    }
+  ],
+  "license" : "CC-BY-4.0",
+  "pipelineSpec" : "AGENT_GUIDE.md",
+  "schema" : "glassmeter-film-looks/1",
+  "source" : "GlassMeter by Glass Works — https://glass-works.ai"
+}

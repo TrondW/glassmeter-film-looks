@@ -2,11 +2,11 @@
   "attribution" : "Film simulations from GlassMeter by Glass Works (glass-works.ai)",
   "films" : [
     {
-      "character" : "Pastel palette, the gentlest contrast",
+      "character" : "Neutral skin tones, finest Portra grain",
       "discontinued" : false,
       "displayName" : "Portra 160",
       "grain" : {
-        "intensity" : 0.14999999999999999
+        "intensity" : 0.14000000000000001
       },
       "halation" : {
         "alwaysOn" : false,
@@ -20,46 +20,24 @@
       },
       "look" : {
         "channelMixer" : [
-          1.02,
-          0.029999999999999999,
+          0.97099999999999997,
+          0.029000000000000001,
           0,
           0.01,
-          1,
+          0.97999999999999998,
           0.01,
           0,
           0.02,
-          0.96999999999999997
+          0.97999999999999998
         ],
         "characteristicCurve" : {
-          "midtoneSlope" : 0.88,
-          "shoulderCompression" : 0.10000000000000001,
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.080000000000000002,
           "toeLift" : 0.040000000000000001
         },
-        "contrast" : 0.12,
+        "contrast" : 0.10000000000000001,
         "curves" : {
           "blue" : [
-            [
-              0,
-              15
-            ],
-            [
-              64,
-              68
-            ],
-            [
-              128,
-              122
-            ],
-            [
-              192,
-              185
-            ],
-            [
-              255,
-              243
-            ]
-          ],
-          "green" : [
             [
               0,
               14
@@ -81,101 +59,29 @@
               245
             ]
           ],
-          "red" : [
+          "green" : [
             [
               0,
-              15
+              14
             ],
             [
               64,
-              75
+              72
             ],
             [
               128,
-              136
+              130
             ],
             [
               192,
-              196
+              192
             ],
             [
               255,
-              246
-            ]
-          ]
-        },
-        "saturation" : -0.14000000000000001
-      },
-      "manufacturer" : "Kodak",
-      "maxPullStops" : 0,
-      "maxPushStops" : 1,
-      "name" : "Kodak Portra 160",
-      "notes" : null,
-      "process" : "C-41",
-      "reciprocity" : {
-        "exponent" : 1.3,
-        "thresholdSeconds" : 1
-      }
-    },
-    {
-      "character" : "Huge latitude, flawless skin tones",
-      "discontinued" : false,
-      "displayName" : "Portra 400",
-      "grain" : {
-        "intensity" : 0
-      },
-      "halation" : {
-        "alwaysOn" : false,
-        "factor" : 1
-      },
-      "id" : "kodak-portra-400",
-      "iso" : {
-        "box" : 400,
-        "max" : 1600,
-        "min" : 200
-      },
-      "look" : {
-        "channelMixer" : [
-          1.02,
-          0.029999999999999999,
-          0,
-          0.01,
-          1,
-          0.01,
-          0,
-          0.02,
-          0.96999999999999997
-        ],
-        "characteristicCurve" : {
-          "midtoneSlope" : 0.90000000000000002,
-          "shoulderCompression" : 0.10000000000000001,
-          "toeLift" : 0.040000000000000001
-        },
-        "contrast" : 0.10000000000000001,
-        "curves" : {
-          "blue" : [
-            [
-              0,
-              15
-            ],
-            [
-              64,
-              67
-            ],
-            [
-              128,
-              121
-            ],
-            [
-              192,
-              184
-            ],
-            [
-              255,
-              242
+              245
             ]
           ],
-          "green" : [
+          "red" : [
             [
               0,
               14
@@ -190,7 +96,102 @@
             ],
             [
               192,
-              193
+              192
+            ],
+            [
+              255,
+              245
+            ]
+          ]
+        },
+        "saturation" : -0.14000000000000001
+      },
+      "manufacturer" : "Kodak",
+      "maxPullStops" : 0,
+      "maxPushStops" : 1,
+      "name" : "Kodak Portra 160",
+      "notes" : null,
+      "process" : "C-41",
+      "reciprocity" : {
+        "colorShift" : null,
+        "exponent" : 1.3,
+        "thresholdSeconds" : 1
+      }
+    },
+    {
+      "character" : "Huge latitude, flawless skin tones",
+      "discontinued" : false,
+      "displayName" : "Portra 400",
+      "grain" : {
+        "intensity" : 0.25
+      },
+      "halation" : {
+        "alwaysOn" : false,
+        "factor" : 1
+      },
+      "id" : "kodak-portra-400",
+      "iso" : {
+        "box" : 400,
+        "max" : 1600,
+        "min" : 200
+      },
+      "look" : {
+        "channelMixer" : [
+          0.97099999999999997,
+          0.029000000000000001,
+          0,
+          0.01,
+          0.97999999999999998,
+          0.01,
+          0,
+          0.02,
+          0.97999999999999998
+        ],
+        "characteristicCurve" : {
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.080000000000000002,
+          "toeLift" : 0.040000000000000001
+        },
+        "contrast" : 0.10000000000000001,
+        "curves" : {
+          "blue" : [
+            [
+              0,
+              15
+            ],
+            [
+              64,
+              72
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              192
+            ],
+            [
+              255,
+              246
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              14
+            ],
+            [
+              64,
+              73
+            ],
+            [
+              128,
+              132
+            ],
+            [
+              192,
+              194
             ],
             [
               255,
@@ -200,23 +201,23 @@
           "red" : [
             [
               0,
-              16
+              15
             ],
             [
               64,
-              78
+              74
             ],
             [
               128,
-              140
+              133
             ],
             [
               192,
-              199
+              194
             ],
             [
               255,
-              248
+              246
             ]
           ]
         },
@@ -229,6 +230,7 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -238,7 +240,7 @@
       "discontinued" : false,
       "displayName" : "Portra 800",
       "grain" : {
-        "intensity" : 0.40000000000000002
+        "intensity" : 0.39000000000000001
       },
       "halation" : {
         "alwaysOn" : false,
@@ -252,49 +254,27 @@
       },
       "look" : {
         "channelMixer" : [
-          1.02,
-          0.029999999999999999,
+          0.97099999999999997,
+          0.029000000000000001,
           0,
           0.01,
-          1,
+          0.97999999999999998,
           0.01,
           0,
           0.02,
-          0.96999999999999997
+          0.97999999999999998
         ],
         "characteristicCurve" : {
-          "midtoneSlope" : 0.94999999999999996,
-          "shoulderCompression" : 0.089999999999999997,
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.080000000000000002,
           "toeLift" : 0.029999999999999999
         },
-        "contrast" : 0.17999999999999999,
+        "contrast" : 0.10000000000000001,
         "curves" : {
           "blue" : [
             [
               0,
-              12
-            ],
-            [
-              64,
-              64
-            ],
-            [
-              128,
-              119
-            ],
-            [
-              192,
-              183
-            ],
-            [
-              255,
-              241
-            ]
-          ],
-          "green" : [
-            [
-              0,
-              10
+              11
             ],
             [
               64,
@@ -306,7 +286,29 @@
             ],
             [
               192,
-              193
+              192
+            ],
+            [
+              255,
+              245
+            ]
+          ],
+          "green" : [
+            [
+              0,
+              10
+            ],
+            [
+              64,
+              71
+            ],
+            [
+              128,
+              131
+            ],
+            [
+              192,
+              194
             ],
             [
               255,
@@ -316,23 +318,23 @@
           "red" : [
             [
               0,
-              12
+              11
             ],
             [
               64,
-              76
+              72
             ],
             [
               128,
-              141
+              133
             ],
             [
               192,
-              200
+              195
             ],
             [
               255,
-              249
+              247
             ]
           ]
         },
@@ -345,6 +347,7 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -354,7 +357,7 @@
       "discontinued" : false,
       "displayName" : "Ektar 100",
       "grain" : {
-        "intensity" : 0.10000000000000001
+        "intensity" : 0.080000000000000002
       },
       "halation" : {
         "alwaysOn" : false,
@@ -373,46 +376,46 @@
           "shoulderCompression" : 0.070000000000000007,
           "toeLift" : 0.02
         },
-        "contrast" : 0.28000000000000003,
+        "contrast" : 0.17000000000000001,
         "curves" : {
           "blue" : [
             [
               0,
-              6
+              3
             ],
             [
               64,
-              62
+              65
             ],
             [
               128,
-              122
+              129
             ],
             [
               192,
-              186
+              194
             ],
             [
               255,
-              246
+              250
             ]
           ],
           "green" : [
             [
               0,
-              2
+              3
             ],
             [
               64,
-              64
+              65
             ],
             [
               128,
-              128
+              129
             ],
             [
               192,
-              193
+              194
             ],
             [
               255,
@@ -422,27 +425,27 @@
           "red" : [
             [
               0,
-              4
+              3
             ],
             [
               64,
-              70
+              65
             ],
             [
               128,
-              136
+              129
             ],
             [
               192,
-              200
+              194
             ],
             [
               255,
-              252
+              250
             ]
           ]
         },
-        "saturation" : 0.29999999999999999
+        "saturation" : 0.22
       },
       "manufacturer" : "Kodak",
       "maxPullStops" : 1,
@@ -451,16 +454,17 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
     },
     {
-      "character" : "Warm, nostalgic, endlessly forgiving",
+      "character" : "Bright, saturated, endlessly forgiving",
       "discontinued" : false,
       "displayName" : "Gold 200",
       "grain" : {
-        "intensity" : 0
+        "intensity" : 0.34000000000000002
       },
       "halation" : {
         "alwaysOn" : false,
@@ -474,43 +478,43 @@
       },
       "look" : {
         "channelMixer" : [
-          1.03,
-          0.040000000000000001,
+          0.96299999999999997,
+          0.036999999999999998,
           0,
           0,
-          1.01,
+          1,
           0,
           0,
           0.01,
-          0.94999999999999996
+          0.98999999999999999
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
-          "shoulderCompression" : 0.080000000000000002,
+          "shoulderCompression" : 0.12,
           "toeLift" : 0.025000000000000001
         },
-        "contrast" : 0.17999999999999999,
+        "contrast" : 0.14999999999999999,
         "curves" : {
           "blue" : [
             [
               0,
-              11
+              10
             ],
             [
               64,
-              59
+              68
             ],
             [
               128,
-              113
+              129
             ],
             [
               192,
-              177
+              191
             ],
             [
               255,
-              235
+              243
             ]
           ],
           "green" : [
@@ -520,7 +524,7 @@
             ],
             [
               64,
-              69
+              70
             ],
             [
               128,
@@ -542,19 +546,19 @@
             ],
             [
               64,
-              77
+              72
             ],
             [
               128,
-              142
+              135
             ],
             [
               192,
-              202
+              196
             ],
             [
               255,
-              250
+              248
             ]
           ]
         },
@@ -567,6 +571,7 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -576,7 +581,7 @@
       "discontinued" : false,
       "displayName" : "UltraMax 400",
       "grain" : {
-        "intensity" : 0.34999999999999998
+        "intensity" : 0.35999999999999999
       },
       "halation" : {
         "alwaysOn" : false,
@@ -590,7 +595,7 @@
       },
       "look" : {
         "channelMixer" : [
-          1.02,
+          0.98999999999999999,
           0.01,
           0,
           0,
@@ -598,35 +603,35 @@
           0,
           0,
           0,
-          0.97999999999999998
+          1
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
-          "shoulderCompression" : 0.080000000000000002,
+          "shoulderCompression" : 0.089999999999999997,
           "toeLift" : 0.025000000000000001
         },
-        "contrast" : 0.22,
+        "contrast" : 0.12,
         "curves" : {
           "blue" : [
             [
               0,
-              7
+              6
             ],
             [
               64,
-              61
+              65
             ],
             [
               128,
-              119
+              127
             ],
             [
               192,
-              185
+              191
             ],
             [
               255,
-              241
+              245
             ]
           ],
           "green" : [
@@ -636,15 +641,15 @@
             ],
             [
               64,
-              66
+              67
             ],
             [
               128,
-              129
+              130
             ],
             [
               192,
-              193
+              194
             ],
             [
               255,
@@ -658,19 +663,19 @@
             ],
             [
               64,
-              72
+              68
             ],
             [
               128,
-              138
+              133
             ],
             [
               192,
-              201
+              196
             ],
             [
               255,
-              250
+              248
             ]
           ]
         },
@@ -683,6 +688,7 @@
       "notes" : "Warm, saturated consumer 400",
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -692,7 +698,7 @@
       "discontinued" : false,
       "displayName" : "ColorPlus 200",
       "grain" : {
-        "intensity" : 0.29999999999999999
+        "intensity" : 0.35999999999999999
       },
       "halation" : {
         "alwaysOn" : false,
@@ -706,7 +712,7 @@
       },
       "look" : {
         "channelMixer" : [
-          1.02,
+          0.98999999999999999,
           0.01,
           0,
           0,
@@ -714,35 +720,35 @@
           0,
           0,
           0,
-          0.96999999999999997
+          1
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 0.97999999999999998,
           "shoulderCompression" : 0.080000000000000002,
           "toeLift" : 0.025000000000000001
         },
-        "contrast" : 0.17999999999999999,
+        "contrast" : 0.14999999999999999,
         "curves" : {
           "blue" : [
             [
               0,
-              13
+              11
             ],
             [
               64,
-              60
+              68
             ],
             [
               128,
-              112
+              128
             ],
             [
               192,
-              177
+              190
             ],
             [
               255,
-              231
+              240
             ]
           ],
           "green" : [
@@ -752,15 +758,15 @@
             ],
             [
               64,
-              69
+              70
             ],
             [
               128,
-              130
+              131
             ],
             [
               192,
-              192
+              193
             ],
             [
               255,
@@ -770,23 +776,23 @@
           "red" : [
             [
               0,
-              11
+              10
             ],
             [
               64,
-              76
+              72
             ],
             [
               128,
-              141
+              135
             ],
             [
               192,
-              203
+              197
             ],
             [
               255,
-              247
+              244
             ]
           ]
         },
@@ -799,6 +805,7 @@
       "notes" : "Warm golden vintage cast, Kodacolor heritage",
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -808,7 +815,7 @@
       "discontinued" : false,
       "displayName" : "Ektachrome E100",
       "grain" : {
-        "intensity" : 0.059999999999999998
+        "intensity" : 0.050000000000000003
       },
       "halation" : {
         "alwaysOn" : false,
@@ -905,7 +912,12 @@
       "notes" : "Clean neutral slide film, moderately enhanced saturation",
       "process" : "E-6",
       "reciprocity" : {
-        "exponent" : 1.2,
+        "colorShift" : {
+          "atSeconds" : 120,
+          "density" : 0.10000000000000001,
+          "filter" : "R"
+        },
+        "exponent" : 1.05,
         "thresholdSeconds" : 10
       }
     },
@@ -1021,6 +1033,11 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : {
+          "atSeconds" : 10,
+          "density" : 0.10000000000000001,
+          "filter" : "R"
+        },
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -1030,7 +1047,7 @@
       "discontinued" : false,
       "displayName" : "50D",
       "grain" : {
-        "intensity" : 0.080000000000000002
+        "intensity" : 0.16
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1064,23 +1081,23 @@
           "blue" : [
             [
               0,
-              12
+              10
             ],
             [
               64,
-              75
+              73
             ],
             [
               128,
-              130
+              132
             ],
             [
               192,
-              195
+              197
             ],
             [
               255,
-              248
+              250
             ]
           ],
           "green" : [
@@ -1108,23 +1125,23 @@
           "red" : [
             [
               0,
-              8
+              9
             ],
             [
               64,
-              70
+              71
             ],
             [
               128,
-              135
+              134
             ],
             [
               192,
-              200
+              199
             ],
             [
               255,
-              250
+              251
             ]
           ]
         },
@@ -1137,12 +1154,13 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
     },
     {
-      "character" : "Versatile cine look, soft glow",
+      "character" : "Soft color, warm skin tones",
       "discontinued" : false,
       "displayName" : "400D",
       "grain" : {
@@ -1160,7 +1178,7 @@
       },
       "look" : {
         "channelMixer" : [
-          1.01,
+          0.98999999999999999,
           0.01,
           0,
           0,
@@ -1168,7 +1186,7 @@
           0,
           0,
           0,
-          0.98999999999999999
+          1
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 0.94999999999999996,
@@ -1180,23 +1198,23 @@
           "blue" : [
             [
               0,
-              13
+              11
             ],
             [
               64,
-              64
+              67
             ],
             [
               128,
-              120
+              126
             ],
             [
               192,
-              184
+              189
             ],
             [
               255,
-              240
+              243
             ]
           ],
           "green" : [
@@ -1206,11 +1224,11 @@
             ],
             [
               64,
-              68
+              69
             ],
             [
               128,
-              128
+              129
             ],
             [
               192,
@@ -1224,27 +1242,27 @@
           "red" : [
             [
               0,
-              12
+              11
             ],
             [
               64,
-              74
+              71
             ],
             [
               128,
-              135
+              131
             ],
             [
               192,
-              196
+              193
             ],
             [
               255,
-              246
+              245
             ]
           ]
         },
-        "saturation" : 0.080000000000000002
+        "saturation" : 0
       },
       "manufacturer" : "CineStill",
       "maxPullStops" : 1,
@@ -1253,6 +1271,7 @@
       "notes" : "Daylight Vision3 base; soft warm tones, mild halation",
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -1262,7 +1281,7 @@
       "discontinued" : false,
       "displayName" : "Velvia 50",
       "grain" : {
-        "intensity" : 0.050000000000000003
+        "intensity" : 0.059999999999999998
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1281,28 +1300,28 @@
           "shoulderCompression" : 0.02,
           "toeLift" : 0
         },
-        "contrast" : 0.34999999999999998,
+        "contrast" : 0.23999999999999999,
         "curves" : {
           "blue" : [
             [
               0,
-              2
+              0
             ],
             [
               64,
-              66
+              61
             ],
             [
               128,
-              130
+              129
             ],
             [
               192,
-              196
+              197
             ],
             [
               255,
-              250
+              253
             ]
           ],
           "green" : [
@@ -1312,19 +1331,19 @@
             ],
             [
               64,
-              60
+              61
             ],
             [
               128,
-              126
+              129
             ],
             [
               192,
-              194
+              197
             ],
             [
               255,
-              252
+              253
             ]
           ],
           "red" : [
@@ -1334,23 +1353,23 @@
             ],
             [
               64,
-              58
+              61
             ],
             [
               128,
-              132
+              129
             ],
             [
               192,
-              202
+              197
             ],
             [
               255,
-              255
+              253
             ]
           ]
         },
-        "saturation" : 0.45000000000000001
+        "saturation" : 0.29999999999999999
       },
       "manufacturer" : "Fujifilm",
       "maxPullStops" : 0,
@@ -1359,6 +1378,11 @@
       "notes" : "Highly saturated, landscape film",
       "process" : "E-6",
       "reciprocity" : {
+        "colorShift" : {
+          "atSeconds" : 32,
+          "density" : 0.125,
+          "filter" : "M"
+        },
         "exponent" : 1.2,
         "thresholdSeconds" : 1
       }
@@ -1387,28 +1411,28 @@
           "shoulderCompression" : 0.025000000000000001,
           "toeLift" : 0.002
         },
-        "contrast" : 0.32000000000000001,
+        "contrast" : 0.22,
         "curves" : {
           "blue" : [
             [
               0,
-              2
+              0
             ],
             [
               64,
-              66
+              61
             ],
             [
               128,
-              130
+              129
             ],
             [
               192,
-              196
+              197
             ],
             [
               255,
-              250
+              253
             ]
           ],
           "green" : [
@@ -1418,19 +1442,19 @@
             ],
             [
               64,
-              60
+              61
             ],
             [
               128,
-              126
+              129
             ],
             [
               192,
-              194
+              197
             ],
             [
               255,
-              252
+              253
             ]
           ],
           "red" : [
@@ -1440,23 +1464,23 @@
             ],
             [
               64,
-              58
+              61
             ],
             [
               128,
-              132
+              129
             ],
             [
               192,
-              202
+              197
             ],
             [
               255,
-              255
+              253
             ]
           ]
         },
-        "saturation" : 0.38
+        "saturation" : 0.26000000000000001
       },
       "manufacturer" : "Fujifilm",
       "maxPullStops" : 0,
@@ -1465,7 +1489,12 @@
       "notes" : "Saturated slide with excellent reciprocity",
       "process" : "E-6",
       "reciprocity" : {
-        "exponent" : 1.1499999999999999,
+        "colorShift" : {
+          "atSeconds" : 120,
+          "density" : 0.025000000000000001,
+          "filter" : "M"
+        },
+        "exponent" : 1.25,
         "thresholdSeconds" : 60
       }
     },
@@ -1474,7 +1503,7 @@
       "discontinued" : false,
       "displayName" : "Provia 100F",
       "grain" : {
-        "intensity" : 0.080000000000000002
+        "intensity" : 0.050000000000000003
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1498,23 +1527,23 @@
           "blue" : [
             [
               0,
-              4
+              2
             ],
             [
               64,
-              66
+              64
             ],
             [
               128,
-              131
+              129
             ],
             [
               192,
-              194
+              193
             ],
             [
               255,
-              253
+              252
             ]
           ],
           "green" : [
@@ -1546,19 +1575,19 @@
             ],
             [
               64,
-              63
+              64
             ],
             [
               128,
-              127
+              129
             ],
             [
               192,
-              192
+              193
             ],
             [
               255,
-              251
+              252
             ]
           ]
         },
@@ -1571,16 +1600,21 @@
       "notes" : "Neutral, accurate colors",
       "process" : "E-6",
       "reciprocity" : {
-        "exponent" : 1.2,
+        "colorShift" : {
+          "atSeconds" : 240,
+          "density" : 0.025000000000000001,
+          "filter" : "G"
+        },
+        "exponent" : 1.3500000000000001,
         "thresholdSeconds" : 128
       }
     },
     {
-      "character" : "Airy pastels, minty shadows",
+      "character" : "Soft pastels, true color in mixed light",
       "discontinued" : false,
       "displayName" : "Pro 400H",
       "grain" : {
-        "intensity" : 0
+        "intensity" : 0.25
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1594,19 +1628,19 @@
       },
       "look" : {
         "channelMixer" : [
-          0.98999999999999999,
+          0.97999999999999998,
           0.02,
           0,
           0,
-          1.02,
-          0.02,
+          0.98099999999999998,
+          0.019,
           0,
           0.029999999999999999,
           0.96999999999999997
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 0.88,
-          "shoulderCompression" : 0.10000000000000001,
+          "shoulderCompression" : 0.070000000000000007,
           "toeLift" : 0.040000000000000001
         },
         "contrast" : 0.12,
@@ -1614,23 +1648,23 @@
           "blue" : [
             [
               0,
-              17
+              18
             ],
             [
               64,
-              73
+              76
             ],
             [
               128,
-              129
+              133
             ],
             [
               192,
-              189
+              193
             ],
             [
               255,
-              244
+              246
             ]
           ],
           "green" : [
@@ -1640,41 +1674,41 @@
             ],
             [
               64,
-              79
+              78
             ],
             [
               128,
-              137
+              136
             ],
             [
               192,
-              196
+              195
             ],
             [
               255,
-              248
+              247
             ]
           ],
           "red" : [
             [
               0,
-              17
+              18
             ],
             [
               64,
-              73
+              76
             ],
             [
               128,
-              131
+              134
             ],
             [
               192,
-              191
+              193
             ],
             [
               255,
-              243
+              246
             ]
           ]
         },
@@ -1687,6 +1721,7 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.25,
         "thresholdSeconds" : 1
       }
@@ -1696,7 +1731,7 @@
       "discontinued" : false,
       "displayName" : "Industrial 100",
       "grain" : {
-        "intensity" : 0
+        "intensity" : 0.14999999999999999
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1715,28 +1750,28 @@
           "shoulderCompression" : 0.080000000000000002,
           "toeLift" : 0.025000000000000001
         },
-        "contrast" : 0.17999999999999999,
+        "contrast" : 0.20000000000000001,
         "curves" : {
           "blue" : [
             [
               0,
-              10
+              9
             ],
             [
               64,
-              69
+              68
             ],
             [
               128,
-              128
+              129
             ],
             [
               192,
-              190
+              191
             ],
             [
               255,
-              244
+              245
             ]
           ],
           "green" : [
@@ -1746,19 +1781,19 @@
             ],
             [
               64,
-              69
+              68
             ],
             [
               128,
-              130
+              129
             ],
             [
               192,
-              192
+              191
             ],
             [
               255,
-              246
+              245
             ]
           ],
           "red" : [
@@ -1768,19 +1803,19 @@
             ],
             [
               64,
-              65
+              68
             ],
             [
               128,
-              124
+              129
             ],
             [
               192,
-              188
+              191
             ],
             [
               255,
-              243
+              245
             ]
           ]
         },
@@ -1793,16 +1828,17 @@
       "notes" : null,
       "process" : "C-41",
       "reciprocity" : {
-        "exponent" : 1.2,
+        "colorShift" : null,
+        "exponent" : 1.3,
         "thresholdSeconds" : 2
       }
     },
     {
-      "character" : "Cool greens, consumer punch",
+      "character" : "Natural skin tones, true grays",
       "discontinued" : false,
       "displayName" : "Superia X-TRA 400",
       "grain" : {
-        "intensity" : 0.29999999999999999
+        "intensity" : 0.25
       },
       "halation" : {
         "alwaysOn" : false,
@@ -1816,15 +1852,15 @@
       },
       "look" : {
         "channelMixer" : [
+          1,
+          0,
+          0,
+          0,
           0.98999999999999999,
-          0,
-          0,
-          0,
-          1.02,
           0.01,
           0,
           0.01,
-          1
+          0.98999999999999999
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
@@ -1836,7 +1872,7 @@
           "blue" : [
             [
               0,
-              7
+              6
             ],
             [
               64,
@@ -1848,7 +1884,7 @@
             ],
             [
               192,
-              195
+              196
             ],
             [
               255,
@@ -1862,45 +1898,45 @@
             ],
             [
               64,
-              69
+              68
             ],
             [
               128,
-              134
+              132
             ],
             [
               192,
-              198
+              197
             ],
             [
               255,
-              251
+              250
             ]
           ],
           "red" : [
             [
               0,
-              4
+              5
             ],
             [
               64,
-              61
+              65
             ],
             [
               128,
-              124
+              129
             ],
             [
               192,
-              190
+              194
             ],
             [
               255,
-              247
+              249
             ]
           ]
         },
-        "saturation" : 0.14999999999999999
+        "saturation" : 0.10000000000000001
       },
       "manufacturer" : "Fujifilm",
       "maxPullStops" : 1,
@@ -1909,6 +1945,7 @@
       "notes" : "Cool green-leaning palette, 4th cyan layer",
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.2,
         "thresholdSeconds" : 2
       }
@@ -1932,22 +1969,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999,
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999,
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
-          "shoulderCompression" : 0.040000000000000001,
+          "shoulderCompression" : 0.014999999999999999,
           "toeLift" : 0.017999999999999999
         },
-        "contrast" : 0.22,
+        "contrast" : 0.20000000000000001,
         "curves" : {
           "blue" : [
             [
@@ -2025,6 +2062,7 @@
       "notes" : null,
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3100000000000001,
         "thresholdSeconds" : 1
       }
@@ -2048,22 +2086,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002,
-          0.33000000000000002
+          0.20999999999999999,
+          0.40999999999999998,
+          0.38,
+          0.20999999999999999,
+          0.40999999999999998,
+          0.38,
+          0.20999999999999999,
+          0.40999999999999998,
+          0.38
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.02,
-          "shoulderCompression" : 0.029999999999999999,
+          "shoulderCompression" : 0.059999999999999998,
           "toeLift" : 0.014999999999999999
         },
-        "contrast" : 0.17999999999999999,
+        "contrast" : 0.25,
         "curves" : {
           "blue" : [
             [
@@ -2141,6 +2179,7 @@
       "notes" : "Fine grain, excellent tonality",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.26,
         "thresholdSeconds" : 1
       }
@@ -2164,22 +2203,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.25,
-          0.65000000000000002,
-          0.10000000000000001,
-          0.25,
-          0.65000000000000002,
-          0.10000000000000001,
-          0.25,
-          0.65000000000000002,
-          0.10000000000000001
+          0.16,
+          0.40000000000000002,
+          0.44,
+          0.16,
+          0.40000000000000002,
+          0.44,
+          0.16,
+          0.40000000000000002,
+          0.44
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.02,
-          "shoulderCompression" : 0.01,
-          "toeLift" : 0.0080000000000000002
+          "shoulderCompression" : 0.0050000000000000001,
+          "toeLift" : 0.017999999999999999
         },
-        "contrast" : 0.25,
+        "contrast" : 0.23999999999999999,
         "curves" : {
           "blue" : [
             [
@@ -2257,6 +2296,7 @@
       "notes" : "Very fine grain, sharp",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.26,
         "thresholdSeconds" : 1
       }
@@ -2266,7 +2306,7 @@
       "discontinued" : false,
       "displayName" : "Delta 400",
       "grain" : {
-        "intensity" : 0.17999999999999999
+        "intensity" : 0.10000000000000001
       },
       "halation" : {
         "alwaysOn" : false,
@@ -2280,22 +2320,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.27000000000000002,
-          0.62,
-          0.11,
-          0.27000000000000002,
-          0.62,
-          0.11,
-          0.27000000000000002,
-          0.62,
-          0.11
+          0.19,
+          0.38,
+          0.42999999999999999,
+          0.19,
+          0.38,
+          0.42999999999999999,
+          0.19,
+          0.38,
+          0.42999999999999999
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
-          "shoulderCompression" : 0.01,
+          "shoulderCompression" : 0.040000000000000001,
           "toeLift" : 0.01
         },
-        "contrast" : 0.23999999999999999,
+        "contrast" : 0.23000000000000001,
         "curves" : {
           "blue" : [
             [
@@ -2373,6 +2413,7 @@
       "notes" : "Modern T-grain 400; poor reciprocity (p=1.41)",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.4099999999999999,
         "thresholdSeconds" : 1
       }
@@ -2382,7 +2423,7 @@
       "discontinued" : false,
       "displayName" : "Delta 3200",
       "grain" : {
-        "intensity" : 0.80000000000000004
+        "intensity" : 0.59999999999999998
       },
       "halation" : {
         "alwaysOn" : false,
@@ -2396,20 +2437,20 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.19,
+          0.38,
+          0.42999999999999999,
+          0.19,
+          0.38,
+          0.42999999999999999,
+          0.19,
+          0.38,
+          0.42999999999999999
         ],
         "characteristicCurve" : {
-          "midtoneSlope" : 0.94999999999999996,
-          "shoulderCompression" : 0.050000000000000003,
-          "toeLift" : 0.0050000000000000001
+          "midtoneSlope" : 0.90000000000000002,
+          "shoulderCompression" : 0.10000000000000001,
+          "toeLift" : 0.035000000000000003
         },
         "contrast" : 0.22,
         "curves" : {
@@ -2489,6 +2530,7 @@
       "notes" : "True ISO 1000, rated EI 3200; sweet spot 1600–6400",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3300000000000001,
         "thresholdSeconds" : 1
       }
@@ -2512,22 +2554,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.16,
+          0.40999999999999998,
+          0.42999999999999999,
+          0.16,
+          0.40999999999999998,
+          0.42999999999999999,
+          0.16,
+          0.40999999999999998,
+          0.42999999999999999
         ],
         "characteristicCurve" : {
-          "midtoneSlope" : 1.1200000000000001,
+          "midtoneSlope" : 1.04,
           "shoulderCompression" : 0.040000000000000001,
-          "toeLift" : 0.0050000000000000001
+          "toeLift" : 0.017999999999999999
         },
-        "contrast" : 0.32000000000000001,
+        "contrast" : 0.26000000000000001,
         "curves" : {
           "blue" : [
             [
@@ -2536,7 +2578,7 @@
             ],
             [
               48,
-              36
+              43
             ],
             [
               128,
@@ -2558,7 +2600,7 @@
             ],
             [
               48,
-              36
+              43
             ],
             [
               128,
@@ -2580,7 +2622,7 @@
             ],
             [
               48,
-              36
+              43
             ],
             [
               128,
@@ -2605,6 +2647,7 @@
       "notes" : "Ultra-fine grain, high contrast — landscape classic",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3300000000000001,
         "thresholdSeconds" : 1
       }
@@ -2614,7 +2657,7 @@
       "discontinued" : false,
       "displayName" : "XP2 Super",
       "grain" : {
-        "intensity" : 0.14999999999999999
+        "intensity" : 0.12
       },
       "halation" : {
         "alwaysOn" : false,
@@ -2628,15 +2671,15 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999,
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999,
+          0.17000000000000001,
+          0.40000000000000002,
+          0.42999999999999999
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 0.94999999999999996,
@@ -2721,6 +2764,7 @@
       "notes" : "C-41 chromogenic B&W; shoot EI 50–800 without dev changes",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3100000000000001,
         "thresholdSeconds" : 1
       }
@@ -2730,7 +2774,7 @@
       "discontinued" : false,
       "displayName" : "Tri-X 400",
       "grain" : {
-        "intensity" : 0.34999999999999998
+        "intensity" : 0.23999999999999999
       },
       "halation" : {
         "alwaysOn" : false,
@@ -2744,22 +2788,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.22,
+          0.37,
+          0.40999999999999998,
+          0.22,
+          0.37,
+          0.40999999999999998,
+          0.22,
+          0.37,
+          0.40999999999999998
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
           "shoulderCompression" : 0.0050000000000000001,
           "toeLift" : 0.014999999999999999
         },
-        "contrast" : 0.29999999999999999,
+        "contrast" : 0.20999999999999999,
         "curves" : {
           "blue" : [
             [
@@ -2837,8 +2881,9 @@
       "notes" : "Classic grain, high contrast",
       "process" : "BW",
       "reciprocity" : {
-        "exponent" : 1.3,
-        "thresholdSeconds" : 0.10000000000000001
+        "colorShift" : null,
+        "exponent" : 1.3899999999999999,
+        "thresholdSeconds" : 0.17000000000000001
       }
     },
     {
@@ -2860,22 +2905,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.22,
+          0.39000000000000001,
+          0.39000000000000001,
+          0.22,
+          0.39000000000000001,
+          0.39000000000000001,
+          0.22,
+          0.39000000000000001,
+          0.39000000000000001
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.02,
           "shoulderCompression" : 0,
           "toeLift" : 0.0080000000000000002
         },
-        "contrast" : 0.25,
+        "contrast" : 0.20000000000000001,
         "curves" : {
           "blue" : [
             [
@@ -2953,6 +2998,7 @@
       "notes" : "Tabular grain, very sharp",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.1200000000000001,
         "thresholdSeconds" : 0.40000000000000002
       }
@@ -2962,7 +3008,7 @@
       "discontinued" : false,
       "displayName" : "T-MAX 400",
       "grain" : {
-        "intensity" : 0.14999999999999999
+        "intensity" : 0.080000000000000002
       },
       "halation" : {
         "alwaysOn" : false,
@@ -2976,15 +3022,15 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.23999999999999999,
+          0.45000000000000001,
+          0.31,
+          0.23999999999999999,
+          0.45000000000000001,
+          0.31,
+          0.23999999999999999,
+          0.45000000000000001,
+          0.31
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1,
@@ -3069,8 +3115,9 @@
       "notes" : "Fine grain for ISO 400",
       "process" : "BW",
       "reciprocity" : {
-        "exponent" : 1.1699999999999999,
-        "thresholdSeconds" : 0.29999999999999999
+        "colorShift" : null,
+        "exponent" : 1.3799999999999999,
+        "thresholdSeconds" : 5
       }
     },
     {
@@ -3078,7 +3125,7 @@
       "discontinued" : false,
       "displayName" : "T-MAX P3200",
       "grain" : {
-        "intensity" : 0.65000000000000002
+        "intensity" : 0.45000000000000001
       },
       "halation" : {
         "alwaysOn" : false,
@@ -3092,22 +3139,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.22,
+          0.40000000000000002,
+          0.38,
+          0.22,
+          0.40000000000000002,
+          0.38,
+          0.22,
+          0.40000000000000002,
+          0.38
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.0800000000000001,
           "shoulderCompression" : 0.029999999999999999,
           "toeLift" : 0.0050000000000000001
         },
-        "contrast" : 0.22,
+        "contrast" : 0.20000000000000001,
         "curves" : {
           "blue" : [
             [
@@ -3185,16 +3232,17 @@
       "notes" : "True ISO ~800–1000, rated for EI 3200",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.25,
         "thresholdSeconds" : 1
       }
     },
     {
-      "character" : "Cinema noir, hard shadows",
+      "character" : "Cinema noir, gently rolling shadows",
       "discontinued" : false,
       "displayName" : "Double-X",
       "grain" : {
-        "intensity" : 0.25
+        "intensity" : 0.16
       },
       "halation" : {
         "alwaysOn" : false,
@@ -3208,22 +3256,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001,
-          0.29999999999999999,
-          0.59999999999999998,
-          0.10000000000000001
+          0.17999999999999999,
+          0.34000000000000002,
+          0.47999999999999998,
+          0.17999999999999999,
+          0.34000000000000002,
+          0.47999999999999998,
+          0.17999999999999999,
+          0.34000000000000002,
+          0.47999999999999998
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.05,
           "shoulderCompression" : 0.029999999999999999,
-          "toeLift" : 0.01
+          "toeLift" : 0.017999999999999999
         },
-        "contrast" : 0.20000000000000001,
+        "contrast" : 0.25,
         "curves" : {
           "blue" : [
             [
@@ -3301,6 +3349,7 @@
       "notes" : "Cine stock; EI 250 daylight / 200 tungsten",
       "process" : "BW",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1.3,
         "thresholdSeconds" : 1
       }
@@ -3324,22 +3373,22 @@
       },
       "look" : {
         "channelMixer" : [
-          0.22,
-          0.68000000000000005,
-          0.10000000000000001,
-          0.22,
-          0.68000000000000005,
-          0.10000000000000001,
-          0.22,
-          0.68000000000000005,
-          0.10000000000000001
+          0.26000000000000001,
+          0.46000000000000002,
+          0.28000000000000003,
+          0.26000000000000001,
+          0.46000000000000002,
+          0.28000000000000003,
+          0.26000000000000001,
+          0.46000000000000002,
+          0.28000000000000003
         ],
         "characteristicCurve" : {
           "midtoneSlope" : 1.05,
-          "shoulderCompression" : 0.02,
+          "shoulderCompression" : 0.0050000000000000001,
           "toeLift" : 0.01
         },
-        "contrast" : 0.22,
+        "contrast" : 0.19,
         "curves" : {
           "blue" : [
             [
@@ -3417,7 +3466,8 @@
       "notes" : "Orthopanchromatic; no reciprocity failure below 2 minutes",
       "process" : "BW",
       "reciprocity" : {
-        "exponent" : 1.1499999999999999,
+        "colorShift" : null,
+        "exponent" : 1.2,
         "thresholdSeconds" : 120
       }
     },
@@ -3452,6 +3502,7 @@
       "notes" : "No film simulation",
       "process" : "C-41",
       "reciprocity" : {
+        "colorShift" : null,
         "exponent" : 1,
         "thresholdSeconds" : 999.99900000000002
       }

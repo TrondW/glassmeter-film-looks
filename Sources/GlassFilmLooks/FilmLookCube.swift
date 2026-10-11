@@ -51,6 +51,7 @@ public enum FilmLookCube {
     /// The look as a per-pixel function, for ports that don't want a LUT.
     public struct Look: Sendable {
         let neutral: Bool
+        let blackAndWhite: Bool
         let mixer: [Double]?
         let red: [Double], green: [Double], blue: [Double]
         let saturation: Double
@@ -61,6 +62,7 @@ public enum FilmLookCube {
         public init(film: FilmProfile, pushPullStops: Int = 0) {
             let look = film.look
             neutral = film.isNeutral
+            blackAndWhite = film.process == .blackAndWhite
             mixer = look.channelMixer.flatMap { $0.count == 9 ? $0 : nil }
             let identity: [[Double]] = [[0, 0], [255, 255]]
             red = FilmLookCube.table(look.curves?.red ?? identity)
@@ -74,11 +76,18 @@ public enum FilmLookCube {
 
         public func apply(_ rIn: Double, _ gIn: Double, _ bIn: Double) -> (Double, Double, Double) {
             func clamp(_ v: Double) -> Double { min(1, max(0, v)) }
+            func decode(_ v: Double) -> Double { FilmLookCube.decodeSRGB(v) }
+            func encode(_ v: Double) -> Double { FilmLookCube.encodeSRGB(max(0, min(1, v))) }
             var r = clamp(rIn), g = clamp(gIn), b = clamp(bIn)
 
             if !neutral {
-                // 1. Channel mixer (crosstalk), clamped
-                if let m = mixer {
+                // 1. Channel mixer. B&W: the emulsion's spectral weights,
+                //    summed in linear light and re-encoded. Color: crosstalk
+                //    on encoded values. Clamped either way.
+                if let m = mixer, blackAndWhite {
+                    let y = clamp(encode(m[0] * decode(r) + m[1] * decode(g) + m[2] * decode(b)))
+                    (r, g, b) = (y, y, y)
+                } else if let m = mixer {
                     (r, g, b) = (clamp(r * m[0] + g * m[1] + b * m[2]),
                                  clamp(r * m[3] + g * m[4] + b * m[5]),
                                  clamp(r * m[6] + g * m[7] + b * m[8]))
@@ -108,6 +117,11 @@ public enum FilmLookCube {
             return (clamp(r), clamp(g), clamp(b))
         }
     }
+
+    // MARK: - sRGB transfer (Display P3 uses it)
+
+    static func decodeSRGB(_ v: Double) -> Double { v <= 0.04045 ? v / 12.92 : pow((v + 0.055) / 1.055, 2.4) }
+    static func encodeSRGB(_ v: Double) -> Double { v <= 0.0031308 ? v * 12.92 : 1.055 * pow(v, 1 / 2.4) - 0.055 }
 
     // MARK: - Curves
 

@@ -59,6 +59,9 @@ for film in FilmRegistry.all {
         "reciprocity": [
             "thresholdSeconds": film.reciprocity.thresholdMs / 1000.0,
             "exponent": film.reciprocity.exponent,
+            "colorShift": film.reciprocityColorShift.map {
+                ["filter": $0.filter.rawValue, "density": $0.density, "atSeconds": $0.atSeconds] as [String: Any]
+            } as Any? ?? NSNull(),
         ],
     ]
     entry["notes"] = film.notes ?? NSNull()

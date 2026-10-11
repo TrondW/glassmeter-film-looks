@@ -33,8 +33,9 @@ public struct FilmLookOptions: Sendable {
     /// Lens spread for halation, 0–1. GlassMeter takes this from the lens
     /// (0.05 very well corrected … 0.55 the "glow" lens); 0.2 is typical.
     public var halationSpread: Double = 0.2
-    /// Optional long-exposure warm drift for color films, given the metered
-    /// shutter time in seconds. nil = off.
+    /// Optional long-exposure color drift (from the film's datasheet CC
+    /// correction, where one is published), given the metered shutter time
+    /// in seconds. nil = off.
     public var simulatedShutterSeconds: Double? = nil
     /// Optional lens filter (yellow/orange/red for B&W, warming, conversion).
     public var colorFilter: FilmColorFilter = .none
@@ -92,7 +93,7 @@ public final class FilmLookRenderer {
             ])
         }
 
-        // 5. Reciprocity warm drift (color films, long exposures)
+        // 5. Reciprocity color drift (datasheet CC correction, long exposures)
         if let seconds = options.simulatedShutterSeconds {
             image = applyReciprocityDrift(film, seconds: seconds, to: image)
         }
@@ -216,17 +217,17 @@ public final class FilmLookRenderer {
     }
 
     private func applyReciprocityDrift(_ film: FilmProfile, seconds: Double, to image: CIImage) -> CIImage {
-        guard film.process != .blackAndWhite, seconds > 0 else { return image }
-        let corrected = film.reciprocity.correctedSeconds(for: seconds)
-        guard corrected > seconds * 1.05 else { return image }
-        let warmth = min(1.0, log2(corrected / seconds))
-        return image.applyingFilter("CIColorMatrix", parameters: [
-            "inputRVector": CIVector(x: 1.0 + 0.05 * warmth, y: 0, z: 0, w: 0),
-            "inputGVector": CIVector(x: 0, y: 1.0 + 0.01 * warmth, z: 0, w: 0),
-            "inputBVector": CIVector(x: 0, y: 0, z: 1.0 - 0.06 * warmth, w: 0),
-            "inputAVector": CIVector(x: 0, y: 0, z: 0, w: 1),
-            "inputBiasVector": CIVector(x: 0, y: 0, z: 0, w: 0),
-        ])
+        guard let gains = film.reciprocity.driftGains(for: seconds) else { return image }
+        return image
+            .applyingFilter("CISRGBToneCurveToLinear")
+            .applyingFilter("CIColorMatrix", parameters: [
+                "inputRVector": CIVector(x: gains.r, y: 0, z: 0, w: 0),
+                "inputGVector": CIVector(x: 0, y: gains.g, z: 0, w: 0),
+                "inputBVector": CIVector(x: 0, y: 0, z: gains.b, w: 0),
+                "inputAVector": CIVector(x: 0, y: 0, z: 0, w: 1),
+                "inputBiasVector": CIVector(x: 0, y: 0, z: 0, w: 0),
+            ])
+            .applyingFilter("CILinearToSRGBToneCurve")
     }
 
     private func applyColorFilter(_ filter: FilmColorFilter, to image: CIImage) -> CIImage {

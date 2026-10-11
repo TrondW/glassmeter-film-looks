@@ -92,8 +92,18 @@ def push_pull_points(stops):
             (0.75, clamp(0.75 + 0.025 * s)), (1.0, 1.0)]
 
 
+def decode(v):
+    return v / 12.92 if v <= 0.04045 else ((v + 0.055) / 1.055) ** 2.4
+
+
+def encode(v):
+    v = clamp(v)
+    return v * 12.92 if v <= 0.0031308 else 1.055 * v ** (1 / 2.4) - 0.055
+
+
 def make_look(film, push_pull_stops=0):
     look = film["look"]
+    bw = film["process"] == "BW"
     neutral = look["characteristicCurve"] is None
     mixer = look["channelMixer"] if look["channelMixer"] and len(look["channelMixer"]) == 9 else None
     ident = [[0, 0], [255, 255]]
@@ -108,7 +118,11 @@ def make_look(film, push_pull_stops=0):
     def apply(r, g, b):
         r, g, b = clamp(r), clamp(g), clamp(b)
         if not neutral:
-            if mixer:                                   # 1. channel mixer
+            if mixer and bw:                            # 1. B&W: spectral weights in linear light
+                m = mixer
+                y = clamp(encode(m[0] * decode(r) + m[1] * decode(g) + m[2] * decode(b)))
+                r = g = b = y
+            elif mixer:                                 # 1. colour crosstalk, encoded
                 m = mixer
                 r, g, b = (clamp(r * m[0] + g * m[1] + b * m[2]),
                            clamp(r * m[3] + g * m[4] + b * m[5]),

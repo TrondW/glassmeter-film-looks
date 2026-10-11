@@ -26,6 +26,8 @@ public struct FilmProfile: Codable, Hashable, Identifiable, Sendable {
     public struct Look: Codable, Hashable, Sendable {
         /// Row-major 3x3 crosstalk matrix, applied first:
         /// R' = R*m[0] + G*m[1] + B*m[2], G' = R*m[3] + ..., B' = R*m[6] + ...
+        /// Color films: on encoded values. Black-and-white films (identical
+        /// rows = the emulsion's spectral weights): in LINEAR light, re-encoded.
         public let channelMixer: [Double]?
         public let curves: Curves?
         /// Luminance-preserving saturation offset (0 = unchanged, -1 = monochrome).
@@ -67,6 +69,34 @@ public struct FilmProfile: Codable, Hashable, Identifiable, Sendable {
     public struct Reciprocity: Codable, Hashable, Sendable {
         public let thresholdSeconds: Double
         public let exponent: Double
+        /// The datasheet's long-exposure color correction, if it publishes one.
+        public let colorShift: ColorShift?
+
+        /// A CC filter correction: `filter` ("R", "G", "B", "C", "M", "Y") at
+        /// `density` (CC10R = 0.10) is the full correction at `atSeconds`.
+        /// Unfiltered, the channels that filter absorbs come out too bright.
+        public struct ColorShift: Codable, Hashable, Sendable {
+            public let filter: String
+            public let density: Double
+            public let atSeconds: Double
+        }
+
+        /// Linear-light channel gains (luminance preserved) for an unfiltered
+        /// exposure of metered `seconds`; ramps in log time from the threshold.
+        public func driftGains(for seconds: Double) -> (r: Double, g: Double, b: Double)? {
+            guard let shift = colorShift, seconds > thresholdSeconds,
+                  shift.atSeconds > thresholdSeconds, thresholdSeconds > 0 else { return nil }
+            let strength = min(1, log2(seconds / thresholdSeconds) / log2(shift.atSeconds / thresholdSeconds))
+            let boost = pow(10, shift.density * strength)
+            let absorbed: [String: (Bool, Bool, Bool)] = [
+                "R": (false, true, true), "G": (true, false, true), "B": (true, true, false),
+                "C": (true, false, false), "M": (false, true, false), "Y": (false, false, true),
+            ]
+            guard let a = absorbed[shift.filter] else { return nil }
+            let r = a.0 ? boost : 1, g = a.1 ? boost : 1, b = a.2 ? boost : 1
+            let luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b
+            return (r / luminance, g / luminance, b / luminance)
+        }
 
         /// Exposure time the film actually needs for a metered time `seconds`.
         public func correctedSeconds(for seconds: Double) -> Double {

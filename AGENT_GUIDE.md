@@ -191,9 +191,13 @@ Per film, from `profiles/film-stocks.json → films[i].look`. Skip steps 1–4
 and 6 for `digital-neutral` (its `characteristicCurve` is null).
 
 1. **Channel mixer** (`channelMixer`, 9 numbers, row-major, may be null):
-   `r' = m0 r + m1 g + m2 b`, `g' = m3 r + m4 g + m5 b`, `b' = m6 r + m7 g + m8 b`, then clamp.
-   Black-and-white films use identical rows (e.g. 0.3 0.6 0.1), which is their
-   panchromatic response.
+   - Color films: crosstalk on encoded values,
+     `r' = m0 r + m1 g + m2 b`, `g' = m3 r + m4 g + m5 b`, `b' = m6 r + m7 g + m8 b`, then clamp.
+   - Black-and-white films (`process` "BW", identical rows): the emulsion's
+     spectral sensitivity from its datasheet, summed in **linear light**:
+     `y = encode(m0·decode(r) + m1·decode(g) + m2·decode(b))` (sRGB transfer
+     both ways), clamp, `r = g = b = y`. Most panchromatic films weigh blue far
+     more than the eye does, so skies render lighter.
 2. **Curves** (`curves.red/green/blue`, `[x, y]` pairs on a 0–255 scale, may be null = identity):
    build a 256-entry table per channel. **Linear** interpolation between
    points, flat outside the first/last point, value `y / 255`. Look up with a
@@ -229,13 +233,22 @@ eval x (clamped to [x_0, x_n]) in segment k, t = (x − x_k)/h_k:
 
 GlassMeter's cube is 64³. 33³ is enough for exported `.cube` files.
 
-### 4.3 Reciprocity drift (optional, color films only)
+### 4.3 Reciprocity (optional, long exposures)
 
-For long exposures in a camera app. With metered time `t` seconds and the film's
-`reciprocity` (`thresholdSeconds` T, `exponent` p):
-`t_c = T·(t/T)^p` if `t ≥ T`, else `t`. If `t_c > 1.05·t`:
-`w = min(1, log2(t_c / t))`, then `r ×= 1 + 0.05w`, `g ×= 1 + 0.01w`, `b ×= 1 − 0.06w`.
-The same formula tells a shooter how much longer to expose.
+With metered time `t` seconds and the film's `reciprocity` (`thresholdSeconds`
+T, `exponent` p): `t_c = T·(t/T)^p` if `t ≥ T`, else `t`. That tells a shooter
+how long to really expose; the fits follow each datasheet's table.
+
+**Color drift** (`reciprocity.colorShift`, null for most films): the datasheet's
+CC filter correction, `filter` at `density` (CC10R = "R", 0.10) at `atSeconds`.
+Unfiltered, the film shows the opposite cast. For `t > T`:
+`s = min(1, log2(t/T) / log2(atSeconds/T))`, `k = 10^(density·s)`; multiply
+the channels the filter absorbs by `k` (R absorbs G+B, G absorbs R+B,
+B absorbs R+G, C absorbs R, M absorbs G, Y absorbs B), divide all three by
+their Rec.709 luminance `0.2126 r + 0.7152 g + 0.0722 b`, and apply the gains
+in **linear light** (decode, multiply, encode). Velvia 50 drifts green,
+Provia magenta, Ektachrome E100 and CineStill 800T cyan; negatives publish no
+correction.
 
 ### 4.4 Halation (red highlight bloom)
 
@@ -252,8 +265,8 @@ others 1.0). Skip if `I ≤ 0.01`.
 ### 4.5 Grain
 
 `g = grain.intensity × max(0.1, 1.3^pushPullStops)`. Skip if `g ≤ 0.01`.
-Four films (Portra 400, Gold 200, Pro 400H, Industrial 100) have intensity 0
-and get no grain at box speed.
+Every film except `digital-neutral` has grain; the finest-grained stocks
+sit around 0.03–0.05.
 
 1. Uniform noise per pixel in 0…1, monochrome. With Core Image:
    `CIRandomGenerator` → `CIColorMonochrome` (color 0.5 gray, intensity 1).
